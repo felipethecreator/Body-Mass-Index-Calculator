@@ -1,0 +1,29 @@
+body {
+    background-color: #a3a3a3;
+}
+
+.container {
+    display: flex ;
+    flex-direction: column;
+    width: 55%;
+    max-width: 800px;
+    margin: auto;
+    background-color: #efefef;
+    padding: 20px;
+    border-radius: 4px;
+}
+.container input, .container select {
+    height: 30px;
+}
+.container label {
+    margin-top: 20px;
+    font-weight: bolder;
+    font-size: 1.1em;
+}
+.container button {
+    margin-top: 20px;
+    height: 25px;
+}
+h1 {
+    text-align: center;
+}
