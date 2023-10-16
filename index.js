@@ -17,16 +17,16 @@ PegarBotao.addEventListener('click', function(){
 
 function Resultado(calculo) {
     if(calculo >= 40.0) {
-        alert(`${calculo.toFixed(1)}, Obesidade grau III, vai emagracer, filho da puta!`)
+        alert(`${calculo.toFixed(1)}, Obesidade grau III`)
     } else if(calculo >= 35.0) {
-        alert(`${calculo.toFixed(1)}, Obesidade grau II, dá uma maneirada no Mc Donalds, viado(a)!`)
+        alert(`${calculo.toFixed(1)}, Obesidade grau II`)
     } else if(calculo >= 30.0) {
-        alert(`${calculo.toFixed(1)}, Obesidade grau I, tá precisando se exercitar...`)
+        alert(`${calculo.toFixed(1)}, Obesidade grau I`)
     } else if(calculo >= 25.0) {
-        alert(`${calculo.toFixed(1)}, Sobrepeso, faça uma caminhada ou morra com artérias entupidas!`)
+        alert(`${calculo.toFixed(1)}, Sobrepeso`)
     } else if(calculo <= 18.5){
-        alert(`${calculo.toFixed(1)}, CARALHO IRMÃO, TU É UM ESPECTRO? ✞`)
+        alert(`${calculo.toFixed(1)}, Abaixo do peso`)
     } else if(calculo >= 18,6) {
-        alert(`${calculo.toFixed(1)}, Está no caminho certo, meus parabéns (ou não)`)
+        alert(`${calculo.toFixed(1)}, Peso normal`)
     }
 }
