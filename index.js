@@ -24,12 +24,12 @@ function Resultado(calculo) {
         alert(`${calculo.toFixed(1)}, Obesidade grau I`)
     } else if(calculo >= 25.0) {
         alert(`${calculo.toFixed(1)}, Sobrepeso`)
-    } else if(calculo <= 18.5){
-        alert(`${calculo.toFixed(1)}, Muito abaixo do peso`)
-    } else if(calculo >= 18,6) {
-        alert(`${calculo.toFixed(1)}, Abaixo do peso`)
-    } else if (calculo < 17) { // menor que 17
+    } else if(calculo >= 18.7 && calculo <= 24.99) {
         alert(`${calculo.toFixed(1)}, Peso normal`)
+    } else if (calculo < 18.6 && calculo >= 17) { 
+        alert(`${calculo.toFixed(1)}, Abaixo do peso`)
+    } else if(calculo < 17){
+        alert(`${calculo.toFixed(1)}, Muito abaixo do peso`)
 
     }
 }
